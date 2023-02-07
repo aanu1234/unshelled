@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node js backend app for sellers, orders, and product using basic authentication for dataset",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "standard && node tests.js"
+  },
+  "keywords": [
+    "es6",
+    "lint",
+    "standardjs",
+    "basicauthentication"
+  ],
+  "author": "Okanlawon Anuoluwapo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "mongodb": "^5.0.0",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.1"
+  }
+}
